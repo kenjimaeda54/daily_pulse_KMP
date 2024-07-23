@@ -1,7 +1,7 @@
 # Daily Pulse
-App nativo em Android e IOS, mostra as informacoes sobre o nome do device,versao e a densidade
+App nativo em Android e IOS, mostra as informações sobre o nome do device, versão e a densidade
 
-## Motivacao 
+## Motivação
 Primerio aplicativo com kMP(koltin Multiplataform) 
 
 
