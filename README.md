@@ -13,10 +13,12 @@ Primerio aplicativo com kMP(koltin Multiplataform)
 - Abaixo mais detalhes sobre o uso de shared com as respectivas plataformas
 - Detalhe no IOS pode acusar que não encontrou o modulo shared, após copilar no xcode deveria voltar funcionar normalmente
 - Após ter criado a lógica consumimos nos respectivos códigos nativos, ou seja em iosApp ou androidApp
+- Repara que precisei usar o iosMain, porque nele possui o codigo especifico da plataforma IOS que no caso e UIkit, mesmo vale para androidMain
   
 ``` kotlin
 // commonMain
-// criei uma funcao com a palavra expect, quando isso e criado, o copilador espera que possua a mesma classe dentro de androidMain é iosMain
+// criei uma funcao com a palavra expect, quando isso e criado, o copilador
+// espera que possua a mesma classe dentro de androidMain é iosMain
 
 expect  class Platform {
     val osName: String
